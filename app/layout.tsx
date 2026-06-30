@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
-import localFont from 'next/font/local';
+import { GeistSans } from "geist/font/sans"
 import './globals.css';
 import { Providers } from './providers';
 import { Toaster } from 'sonner';
@@ -12,12 +12,7 @@ const inter = Inter({
   weight: ['300', '400', '500', '600', '700'],
 });
 
-const geistSans = localFont({
-  src: '../public/fonts/GeistVF.woff',
-  variable: '--font-geist',
-  display: 'swap',
-  fallback: ['Inter', 'system-ui', 'sans-serif'],
-});
+const geistSans = GeistSans;
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://softwarise.io'),
