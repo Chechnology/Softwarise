@@ -36,7 +36,7 @@ export default async function DashboardPage() {
             Welcome back, {firstName}
           </h1>
           <p className="text-sm text-[#A1A1AA] mt-1">
-            Here's what's happening with your software portfolio today.
+            Here&apos;s what&apos;s happening with your software portfolio today.
           </p>
         </div>
       </div>

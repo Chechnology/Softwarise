@@ -79,7 +79,7 @@ export function HeroSection() {
             >
               <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
               <span className="text-sm text-primary font-medium tracking-wide">
-                Africa's Premier Software Economy
+                Africa&apos;s Premier Software Economy
               </span>
             </motion.div>
 
